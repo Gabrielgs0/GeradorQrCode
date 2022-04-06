@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+    width: 15rem;
+    height: 7rem;
+}
+
+button{
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: none; 
+}
+
+button:hover{
+    background-color: green;
+}
+
+.qr-code-container{
+    text-shadow: 2px 2px 3px ;
+    text-align: center;
+    margin-top: 30px;
+}
+#qr-code-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 30%;
+    width: 200px;
+}
+
+
+#contato{
+    background-color: #141e5580;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.icon{
+margin: 30px 20px;
+display: flex;
+flex-wrap: wrap;
+}
+.icon > div{
+position: relative;
+flex: 1 1 300px;
+}
+
+#linkedin:hover , #github:hover ,#email:hover{
+color: brown;
+transition: background-color 1s;
+}
+
+#linkedin{
+color: white;
+font-size: 20px;
+text-shadow: 5px 5px 5px black;
+
+}
+#github{
+color: white;
+font-size: 20px;
+position: relative;
+text-shadow: 5px 5px 5px black;
+}
+#email{
+color: white;
+font-size: 20px;
+position: relative;
+text-shadow: 5px 5px 5px black;
+}
